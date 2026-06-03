@@ -17,7 +17,7 @@ def ping_host(host, count=4):
         return result.stdout
     except Exception as e:
         return f"Error: {str(e)}"
-// 解析ping输出，提取ping时间  
+
 def parse_ping_times(output):
     """
     Extract ping times from ping output
